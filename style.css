@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+
+div#interface {
+    width: 1200px;
+    background-color: #fff1e3;
+    margin: 10px auto 10px auto;
+}
+
+header#cabecalho {
+    height: 150px;
+    background-color: #dd7525;
+}
+
+header#cabecalho h1 {
+    font-family: 'Shrikhand', cursive;
+    color: #fff1e3;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+header#cabecalho h3 {
+    margin-top: -10px;
+    font-family: 'Trispace', sans-serif;
+    color: #fff1e3;
+    text-align: center;
+}
+/*
+nav#menu {
+    display: block;
+}
+*/
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: -10px;
+    left: 900px;
+    
+
+}
+
+nav#menu li {
+    display: inline-block;
+}
