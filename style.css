@@ -2,46 +2,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
 
-div#interface {
-    width: 1200px;
-    background-color: #fff1e3;
-    margin: 10px auto 10px auto;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
 }
 
-header#cabecalho {
-    height: 150px;
+
+body {
+    font-size: 100%;
+}
+
+
+
+header {
     background-color: #dd7525;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    max-width: 992px;
+    margin: auto;
 }
 
-header#cabecalho h1 {
-    font-family: 'Shrikhand', cursive;
-    color: #fff1e3;
-    margin-bottom: 0px;
-    text-align: center;
-
+.container-header {
+    display: flex;
+    align-items: center;
 }
 
-header#cabecalho h3 {
-    margin-top: -10px;
+.container-header hgroup{
+    padding: 30px;
+    align-items: flex-start;
+}
+
+.container-header h1 {
     font-family: 'Trispace', sans-serif;
-    color: #fff1e3;
-    text-align: center;
+    font-size: 30px;
 }
-/*
-nav#menu {
-    display: block;
-}
-*/
 
-nav#menu ul {
+.container-header h3 {
+    font-family: 'Trispace', sans-serif;
+    font-size: 14px;
+}
+
+.container-header img {
+    padding-left: 180px;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 30px;
+
+}
+
+nav h3 {
+    display: none;
+}
+
+nav ul li {
+    text-decoration: none;
     list-style: none;
-    position: absolute;
-    top: -10px;
-    left: 900px;
-    
-
-}
-
-nav#menu li {
     display: inline-block;
+
 }
+
+nav ul li a {
+    padding: 5px;
+    color: #fff1e3;
+}
+
+main {
+    max-width: 992px;
+    margin: auto;
+    
+}
+
+.conteudo1 {
+    display: flex;
+}
+
+main .conteudo1 {
+    background-color: #fff1e3;
+    height: 300px;
+}
+
+.conteudo2 {
+    display: flex;
+}
+
+main .conteudo2 {
+    background-color: #dd7525;
+    height: 300px;
+}
+
+footer {
+    background-color: #fff1e3;
+    max-width: 992px;
+    margin: auto;
+    height: 100px;
+    display: flex;
+}
+
