@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 
 * {
@@ -41,11 +42,13 @@ header {
 .container-header h1 {
     font-family: 'Trispace', sans-serif;
     font-size: 30px;
+    color: #9e4102;
 }
 
 .container-header h3 {
     font-family: 'Trispace', sans-serif;
     font-size: 14px;
+    color: #9e4102;
 }
 
 .container-header img {
@@ -54,8 +57,9 @@ header {
 
 nav {
     display: flex;
-    align-items: flex-end;
     padding-right: 30px;
+    right: 20px;
+    font-family: 'Questrial', sans-serif;
 
 }
 
@@ -75,6 +79,10 @@ nav ul li a {
     color: #fff1e3;
 }
 
+.cabecalho-menu-item:hover {
+    color: #9e4102;
+}
+
 main {
     max-width: 992px;
     margin: auto;
@@ -83,27 +91,72 @@ main {
 
 .conteudo1 {
     display: flex;
-}
-
-main .conteudo1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #fff1e3;
     height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: #9e4102;
+
+}
+
+.conteudo1 img {
+    max-width: 200px;
+    height: 244px;
+    border-radius: 50%;
+    border: 1px solid #dd7525;
 }
 
 .conteudo2 {
     display: flex;
+    padding: 50px;
+    background-color: #9e4102;
+    height: 300px;
+    font-family: 'Questrial', sans-serif;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
 }
 
-main .conteudo2 {
-    background-color: #dd7525;
-    height: 300px;
+.conteudo2-titulo {
+    color: #fff1e3;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+.conteudo2-paragrafo {
+    text-align: center;
+    padding-bottom: 10px;
+    max-width: 700px;
+    color: #fff1e3;
+}
+
+.conteudo2-finalizacao {
+    color: #9e4102;
+    border: 1px solid #ecd6c4;
+    background-color: #ecd6c4;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
 }
 
 footer {
     background-color: #fff1e3;
     max-width: 992px;
-    margin: auto;
     height: 100px;
     display: flex;
+    margin: auto;
+    
+}
+
+.rodape-imagem {
+    display: block;
+    margin: 0 auto;
+    max-height: 100px;
+    
 }
 
